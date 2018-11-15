@@ -8,7 +8,6 @@ class Application
       resp.write "Good Morning!"
     else
       resp.write "Good Afternoon!"
-      binding.pry
     end
     resp.finish
   end
